@@ -118,22 +118,42 @@ https://github.com/user-attachments/assets/26a4643b-756c-4bb7-9b78-a54de2634017
 https://github.com/user-attachments/assets/098ad48d-40ff-4f96-983e-6d6d86d6a758
 
 <br/>
-<b>Velocity and Pressure Conoturs Animation</b></p>
+<p align = "center"><b>Velocity and Pressure Conoturs Animation</b></p>
 
 <h3 align = "left">5. Discussion & Future Scope</h3>
-<p align='justify'><b>Mapping:</b></br>
+<p align='justify'><b><i>Mapping:</i></b></br>
 <ul><li>Generated full characteristic curves (Head [m] & Efficiency [%] vs. mass flow rate [kg/s]) for 1500 RPM and 1800 RPM.</li>
   <li>Data covers a wide operational range: 40 to 120 kg/s.</li></ul>
-<b>Key Performance Benchmark:</b>
+
+<b><i>Key Performance Benchmark:</i></b>
 <ul><li>Peak Efficiency: 51.13% for 1500 RPM at 100kg/s mass flow rate.</li>
 <li>Best Efficiency Point (BEP): Located at 80 kg/s, 90 kg/s, 100 kg/s for 1500 RPM rotational velocity.</li></ul>
-<b>Head-Flow Characteristics:</b>
+
+<b><i>Head-Flow Characteristics:</i></b>
 <ul><li>The head-Flow curve shows decreasing trend with increasing flow rate for both 1500 RPM and 1800 RPM, highlighting standard pump behavior.</li></ul>
-<b>Efficiency Flow Characteristics:</b>
+
+<b><i>Efficiency Flow Characteristics:</i></b>
 <ul><li>The peak efficiency for 1800 RPM is lower and occurs at a shifted flow rate compared to 1500 RPM.</li>
   <li>This indicates that the centrifugal pump design (impeller blade angles, volute) is tuned for a specific operating point (~80-100 kg/s at 1500 RPM). When run at 1800 RPM, the increased flow velocities exacerbate losses (friction, shock, recirculation), leading to lower peak efficiency. The pump is inherently designed for its 1500 RPM duty.</li></ul>
 
 </p>
+<p align = "justify"><b><i>Future Scope</i></b></br>
+<table align = "center">
+      <tr><th>Parameter for Improvisation</th><th>Future Scope</th><th>Design Modification Suggested</th></tr>
+      <tr><td>Overall Efficiency</td><td>Implement Transient studies to improvise design, maximize head and efficiency while minimizing power.</td><td><ul><li>Optimize blade geometry.</li><li>Vary blade number (5-7 blades)</li></ul></td></tr>
+      <tr><td>Best Efficiency Point (BEP)</td><td>Use transient CFD with SST turbulence model to accurately capture unsteady flow phenomena and losses at off-design conditions.</td><td><ul><li>Shift BEP by changing blade loading distribution.</li>
+<li>Match impeller outlet flow angle to volute tongue angle.</li>
+<li>Adjust blade leading edge angle (β₁) to match inlet flow.</li></ul></td></tr>
+      <tr><td>Cavitation Performance</td><td>Conduct multiphase (Mixture) CFD simulations to predict vapor formation</td><td><ul><li>Modify inlet blade angles (β₁) for smoother flow.</li>
+<li>Apply leading edge profile optimization (elliptical profiles).</li></ul></td></tr>
+      <tr><td>Rotor-Dynamic Stability</td><td>Perform FSI (Fluid-Structure Interaction) analysis to predict hydraulic forces, bearing loads, and critical speeds.</td><td><ul><li>Implement back vanes or pump-out vanes on the impeller rear shroud.</li></ul></td></tr>
+      <tr><td>Manufacturing & Cost</td><td>Integrate CFD with DFM (Design for Manufacturing) for die-cast or 3D-printed impellers, balancing performance with producibility.</td><td><ul><li>Simplify blade geometry for casting without performance loss.</li>
+<li>Define allowable tolerances based on sensitivity analysis.</li>
+<li>Optimize fillet radii for stress reduction and flow.</li></ul></td></tr>
+</table>
+
+<b>First to go with:</b> Perform Transient simulation to get better Characteristic curves with reduced losses & study cavitation</p>
+
 
 <h2>Recommended Repository Structure</h2>
 
@@ -141,10 +161,8 @@ https://github.com/user-attachments/assets/098ad48d-40ff-4f96-983e-6d6d86d6a758
 CFD-Study-Globe-Valve/
 │
 ├── README.md
-├── Geometry image
-├── Mesh images
 ├── Fluent_Case_Files
-├── Results & Data
+├── animations
 </pre>
 
 <p><b>Author:</b></br> 
