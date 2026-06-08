@@ -44,7 +44,7 @@ The study evaluates the centrifugal pump under multiple mass flow rate condition
               <li>Blade width at hub, b1 ------------------ 0.008 m</li></ul>
             </li></ul></p>
             
-<p align = "center"><img width="360" height="417" alt="image" src="https://github.com/user-attachments/assets/687333b2-9a3f-49d2-8829-520cd4f14f68" /><img width="480" height="571" alt="image" src="https://github.com/user-attachments/assets/6f0307bf-6811-4c0a-bea9-5a7710994019" />
+<p align = "center"><img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/687333b2-9a3f-49d2-8829-520cd4f14f68" /><img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/6f0307bf-6811-4c0a-bea9-5a7710994019" />
 <br/>
     <b>Centrifugal Pump Geometry and Calculations</b></p>
 
@@ -64,7 +64,7 @@ The study evaluates the centrifugal pump under multiple mass flow rate condition
                     <li>Average orthogonality --------------------------------------------------- 0.88, 0.92, 0.94 </li>
                   </ul></li></ul>
 </p>
-<p align = "center"><img width="360" height="628" alt="image" src="https://github.com/user-attachments/assets/caaf0c7a-7fe7-45e0-9a61-b4a638abe597" /><img width="360" height="623" alt="image" src="https://github.com/user-attachments/assets/5d9ca91f-e90e-496a-8f13-1e8184b634c7" /><br/>
+<p align = "center"><img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/caaf0c7a-7fe7-45e0-9a61-b4a638abe597" /><img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/5d9ca91f-e90e-496a-8f13-1e8184b634c7" /><br/>
             <b>Centrifugal pump Meshing (Different Mesh Convergence Cases)</b></p>
   
 
@@ -92,12 +92,12 @@ The study evaluates the centrifugal pump under multiple mass flow rate condition
   <li>All the simulations were run for 2000 iterations</li>
   <li>Medium type mesh showed ~3% error for head value when compared to Fine Mesh</li>
 </ul></p>
-  <p align = "center"><img align = "center" width="360" height="397" alt="image" src="https://github.com/user-attachments/assets/a96da878-688f-4455-afd6-31adf3c987cc" /><br/>
+  <p align = "center"><img align = "center" width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/a96da878-688f-4455-afd6-31adf3c987cc" /><br/>
 <b>Error Percentage (Force and Torque), Surface (Propeller)</b></p>
 
 <h4 align = "left">2. Validation Study</h4>
 <p align = "left">Validation Study shows that medium mesh showed maximum resemblance of head value with theoretical value within 81% when simulated pressure-based solver at steady time for 2000 iterations monitoring mass flow rate at inlet and outlet as convergence criteria within 5% difference for results to conclude.</p>
-<p align = "center"><img align = "center" width="480" height="926" alt="image" src="https://github.com/user-attachments/assets/d052e6fe-97e4-4b4d-b73d-dcecf5031cbe" /><img align = "center" width="480" height="926" alt="image" src="https://github.com/user-attachments/assets/7102687d-45b2-4abd-869a-0bf566e0ac10" /><br/>
+<p align = "center"><img align = "center" width="480" height="240" alt="image" src="https://github.com/user-attachments/assets/d052e6fe-97e4-4b4d-b73d-dcecf5031cbe" /><img align = "center" width="480" height="240" alt="image" src="https://github.com/user-attachments/assets/7102687d-45b2-4abd-869a-0bf566e0ac10" /><br/>
 <b>Number of Elements vs Head [m] and Efficiency [%] </b></p>
 
 <h4 align = "left">3. Case Results</h4>
@@ -105,7 +105,7 @@ The study evaluates the centrifugal pump under multiple mass flow rate condition
   <li>Head loss reduces with increasing mass flow rate.</li>
   <li>Efficiency is max at 80 to 100 kg/s mass flow rate for both 1500 RPM and 1800 RPM</li>
   <li>From the above point we can say, for better efficiency operate centrifugal pump at above specified condition.</li></ul></p>
-<p align = "center"><img width="480" height="926" alt="image" src="https://github.com/user-attachments/assets/4364cc3b-6330-4d05-a4d9-a3156416ee4e" /><img width="480" height="926" alt="image" src="https://github.com/user-attachments/assets/10f277e3-a61a-401c-80a2-28f364ce4372" /><br/>
+<p align = "center"><img width="480" height="240" alt="image" src="https://github.com/user-attachments/assets/4364cc3b-6330-4d05-a4d9-a3156416ee4e" /><img width="480" height="240" alt="image" src="https://github.com/user-attachments/assets/10f277e3-a61a-401c-80a2-28f364ce4372" /><br/>
 <b>Head [m] and Efficiency [%] vs Mass Flow Rate [kg/s]</b></p>
 
 <h4 align = "left">4. Case Results: Video Animation</h4>
