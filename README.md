@@ -44,7 +44,7 @@ The study evaluates the centrifugal pump under multiple mass flow rate condition
               <li>Blade width at hub, b1 ------------------ 0.008 m</li></ul>
             </li></ul></p>
             
-<p align = "center"><img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/687333b2-9a3f-49d2-8829-520cd4f14f68" /><img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/6f0307bf-6811-4c0a-bea9-5a7710994019" />
+<p align = "center"><img width="240" height="240" alt="image" src="https://github.com/user-attachments/assets/687333b2-9a3f-49d2-8829-520cd4f14f68" /><img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/6f0307bf-6811-4c0a-bea9-5a7710994019" />
 <br/>
     <b>Centrifugal Pump Geometry and Calculations</b></p>
 
